@@ -76,7 +76,7 @@ int main(int argc, char* argv[]) {
         }
     }
     if (flag == 1) {
-        cout << "Following is the SAFE Sequence" << endl;
+        cout << "Following is the SAFE Sequence: " << endl;
         for (int i = 0; i < p - 1; i++)
             cout << " P" << safe[i] << " ->";
         cout << " P" << safe[p - 1] << endl;
